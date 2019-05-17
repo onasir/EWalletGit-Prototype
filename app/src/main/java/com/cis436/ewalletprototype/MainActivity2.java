@@ -16,8 +16,8 @@ public class MainActivity2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.mainmenu2);
-        UsernameEt = (EditText)findViewById(R.id.etUserName);
-        PasswordEt = (EditText)findViewById(R.id.etPassword);
+        UsernameEt = findViewById(R.id.etUserName);
+        PasswordEt = findViewById(R.id.etPassword);
 
     }
     public void OnLogin(View view)

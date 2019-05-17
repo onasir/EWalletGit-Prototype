@@ -24,9 +24,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
 
-        Button loginBtn = (Button) findViewById(R.id.loginBtn);
-        EditText usernameTxt = (EditText) findViewById(R.id.usernameEditText);
-        EditText passwordTxt = (EditText) findViewById(R.id.passwordEditText);
+        Button loginBtn = findViewById(R.id.loginBtn);
+        EditText usernameTxt = findViewById(R.id.usernameEditText);
+        EditText passwordTxt = findViewById(R.id.passwordEditText);
 
         loginBtn.setOnClickListener(new View.OnClickListener(){
             @Override

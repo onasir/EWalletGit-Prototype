@@ -11,11 +11,11 @@ public class Register extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
-        firstname = (EditText)findViewById(R.id.et_firstname);
-        lastname = (EditText)findViewById(R.id.et_lastname);
-        username = (EditText)findViewById(R.id.et_username);
-        password = (EditText)findViewById(R.id.et_password);
-        phonenumber = (EditText)findViewById(R.id.et_phonenumber);
+        firstname = findViewById(R.id.et_firstname);
+        lastname = findViewById(R.id.et_lastname);
+        username = findViewById(R.id.et_username);
+        password = findViewById(R.id.et_password);
+        phonenumber = findViewById(R.id.et_phonenumber);
 
 
     }

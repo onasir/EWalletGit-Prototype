@@ -15,10 +15,10 @@ public class MenuActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
 
-        Button btnMakePayment = (Button) findViewById(R.id.btnMakePayment);
-        Button btnSendMoney = (Button) findViewById(R.id.btnSendMoney);
-        Button btnContact = (Button) findViewById(R.id.btnContact);
-        Button btnReport = (Button) findViewById(R.id.btnReport);
+        Button btnMakePayment = findViewById(R.id.btnMakePayment);
+        Button btnSendMoney = findViewById(R.id.btnSendMoney);
+        Button btnContact = findViewById(R.id.btnContact);
+        Button btnReport = findViewById(R.id.btnReport);
 
 
         btnMakePayment.setOnClickListener(new View.OnClickListener() {
